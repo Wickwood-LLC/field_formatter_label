@@ -1,7 +1,8 @@
 name = Field Formatter Label
 package = Fields
-description = Allows overriding the field display label on the Manage Fields UI.
+description = Allows overriding the field display label on the Manage Fields UI.  Patch from https://www.drupal.org/files/issues/field_formatter_label-not_working-2167309-4.patch applied by WWM.
 core = 7.x
+version = 1.0-beta1-wwm
 
 dependencies[] = field
 dependencies[] = field_formatter_settings
